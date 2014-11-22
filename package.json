@@ -1,20 +1,23 @@
 {
 	"name": "apptrack-api",
-	"description": "A node module to perform api requests to apptrack",
+	"description": "Remote API in Node.js for Apptrack",
 	"version": "0.0.1",
 	"author": "kdi",
 	"contributors": [
 		{ "name": "Makis Tracend", "email": "makis@kdi.co" }
 	],
-	"homepage": "http://apptrack.io", 
-	"keywords": ["apptrack", "aggregate", "api", "json"],
+	"homepage": "http://apptrack.io",
+	"keywords": ["apptrack", "crud", "api", "json"],
 	"repository": {
 	"type": "git",
 		"url": "git://github.com/apptrack/node.git"
 	},
-	"engines": { "node": "0.8.x" }, 
+	"engines": { "node": ">=0.8.x" },
 	"main": "index",
 	"bin": { },
 	"dependencies": {
+		"underscore": "*",
+		"passport": "*",
+		"passport-apptrack": "*"
 	}
 }
