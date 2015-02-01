@@ -12,12 +12,20 @@
 	"type": "git",
 		"url": "git://github.com/apptrack/node.git"
 	},
+	"bugs": {
+		"url": "http://github.com/apptrack/node/issues"
+	},
+	"licenses": [{
+		"type": "MIT",
+		"url": "http://www.makesites.org/licenses/MIT"
+	}],
 	"engines": { "node": ">=0.8.x" },
 	"main": "index",
 	"bin": { },
 	"dependencies": {
-		"underscore": "*",
-		"passport": "*",
-		"passport-apptrack": "*"
+		"passport": "0.2.1",
+		"passport-apptrack": "0.x",
+		"request": "2.51.0",
+		"underscore": "1.7.0"
 	}
 }
