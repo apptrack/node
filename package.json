@@ -1,7 +1,7 @@
 {
 	"name": "apptrack-api",
 	"description": "Remote API in Node.js for Apptrack",
-	"version": "0.2.1",
+	"version": "0.2.2",
 	"author": "kdi",
 	"contributors": [
 		{ "name": "Makis Tracend", "email": "makis@kdi.co" }
